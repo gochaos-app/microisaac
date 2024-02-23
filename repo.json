@@ -1,0 +1,13 @@
+[{
+    "Name": "micropilot",
+    "Description": "A bedrock implementation with lua as a micro plugin",
+    "Tags": ["micro", "bedrock", "aws"],
+    "Versions": [
+      {
+        "Version": "0.0.1",
+        "Require": {
+          "micro": ">=2.0.0"
+        }
+      }
+    ]
+  }]
