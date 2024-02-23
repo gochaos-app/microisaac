@@ -12,7 +12,9 @@ bedrock = boto3.client('bedrock-runtime', region_name='us-east-1')
 
 body = {
     "prompt": sys.argv[1],
-    "temperature": 0.7,
+    "temperature": 0.8,
+    "topP": 0.9,
+    "maxTokens": 200,
 }
 filepath = sys.argv[2] + "/data.json"
 filetext = sys.argv[2] + "/data.txt"
