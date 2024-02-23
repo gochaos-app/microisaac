@@ -23,7 +23,7 @@ function isaac_image(bp, args)
 	end
 	local current_dir = osmicro.Getwd()
 	local prompt = args[1]
-	local command = "~/.config/micro/plug/isaac/main_image.py \"" .. prompt .. "\" \"" .. current_dir .. "\""
+	local command = "~/.config/micro/plug/microisaac/main_image.py \"" .. prompt .. "\" \"" .. current_dir .. "\""
 
 	os.execute(command)
 end
@@ -36,7 +36,7 @@ function isaac(bp, args)
 	end
 	local current_dir = osmicro.Getwd()
 	local prompt = args[1]
-	local command = "~/.config/micro/plug/isaac/main_chat.py \"" .. prompt .. "\" \"" .. current_dir .. "\""
+	local command = "~/.config/micro/plug/microisaac/main_chat.py \"" .. prompt .. "\" \"" .. current_dir .. "\""
 
 	os.execute(command)
 end
