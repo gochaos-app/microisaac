@@ -15,7 +15,6 @@ function init()
 	-- 
 end
 
-
 function isaac_image(bp, args)
 	if #args < 1 then
 		micro.InfoBar():Error("This command requires a prompt as an argument.")
@@ -83,12 +82,14 @@ function update_prompts_responses()
 	isaac_view.Buf.EventHandler:Remove(isaac_view.Buf:Start(), isaac_view.Buf:End())
 
 	local display_content 
+	
 	for i = 1, #content do
 		display_content = content[i]
 		if i < #content then
 			display_content = display_content .. "\n"
 		end
 		isaac_view.Buf.EventHandler:Insert(buffer.Loc(i-1, i+2), display_content)
-	end
+	end	
+	
 end
 
