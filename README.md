@@ -19,7 +19,7 @@ i "Make an image of a programmer working with a laptop"
 ```
 
 
-For opening the Propmts Database (no auto-reload :expressionless: )
+For opening the Prompts Database (no auto-reload :expressionless: )
 
 ```
 Ctrl + e
